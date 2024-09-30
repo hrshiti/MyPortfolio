@@ -1,0 +1,38 @@
+.home_section{
+  min-height:90vh;
+  min-width:100%;
+  background-color:black;
+  
+}
+.main_div{
+  display:flex;
+  justify-content:space-around;
+  justify-content:center;
+  align-items:center;
+  gap:184px
+  
+}
+.home_btns{
+  display:flex;
+margin-top:29px;
+  gap:33px;
+}
+.about_me h1{
+  /* margin: 12px 5px; */
+  font-size: 62px;
+  }
+  
+
+.about_me h4{
+  color: green;
+  font-size: 21px;
+  margin-bottom: 17px;
+}
+.about_me p{
+  color: white;
+  font-size: 17px;
+ margin-bottom:5px;
+}
+.mine_img{
+  margin-top:85px
+}

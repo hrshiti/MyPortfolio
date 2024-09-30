@@ -1,0 +1,49 @@
+.project_clumn_div{
+    display: flex;
+    justify-content: space-around;
+    gap: 223px;
+    
+}
+.project_main_div {
+    display: flex;
+    justify-content: space-between; /* Makes sure columns are aligned horizontally */
+  }
+
+  .project_row_div h1{
+    /* margin: 12px 5px; */
+    font-size: 62px;
+    }
+    
+  
+    .project_row_div h4{
+    color: green;
+    font-size: 21px;
+    margin-bottom: 17px;
+  }
+  .project_row_div p{
+    color: white;
+    font-size: 17px;
+   margin-bottom:5px;
+  }
+  
+  .project_row_div {
+ 
+    min-height: 330px;
+    flex: 1; /* Allows divs to take up equal space */
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .project_row_div:first-child {
+    border-right: 2px solid green; /* Green vertical line */
+    padding-right: 220px;/* Optional space between the divs */
+  }
+
+  .menu_image{
+    max-height: 484px;
+    max-width: 350px;
+  }
+  .calculator_img{
+    max-height: 484px;
+    max-width: 350px;
+  }
