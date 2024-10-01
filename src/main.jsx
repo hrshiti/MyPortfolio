@@ -14,6 +14,7 @@ import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar.jsx'
 import Contact_form from './components/Contact_form/Contact_form.jsx'
 import Projects from './components/projects/Projects.jsx'
+import Services from './components/services/Services.jsx'
 
 
 const router = createBrowserRouter([
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "services",
-		element: <App />
+		element: <Services />
 	},
 ]);
 
