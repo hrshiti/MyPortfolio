@@ -19,30 +19,32 @@ import Services from './components/services/Services.jsx'
 
 const router = createBrowserRouter([
 	{
-		path: "navbar",
+		path: "/navbar",
 		element: <Navbar />
-	},
-	{
-		path: "home",
+	  },
+	  {
+		path: "/home",
 		element: <Home />
-	},
-	{
+	  },
+	  {
 		path: "/",
 		element: <App />
-	},
-	{
-		path: "contact",
+	  },
+	  {
+		path: "/contact",
 		element: <Contact_form />
-	},
-	{
-		path: "projects",
+	  },
+	  {
+		path: "/projects",
 		element: <Projects />
-	},
-	{
-		path: "services",
+	  },
+	  {
+		path: "/services",
 		element: <Services />
-	},
-]);
+	  },
+	]);
+	
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
